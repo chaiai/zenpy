@@ -48,8 +48,8 @@ from zenpy.lib.mapping import ZendeskObjectMapping
 
 log = logging.getLogger()
 
-__author__ = "facetoe"
-__version__ = "2.0.10"
+__author__ = "ChaiAI"
+__version__ = "1.0.0"
 
 
 class Zenpy(object):
@@ -60,8 +60,8 @@ class Zenpy(object):
     def __init__(
         self,
         domain="zendesk.com",
-        subdomain=None,
-        email=None,
+        subdomain="ahcit",
+        email="ryonkers@ahchospitality.com",
         token=None,
         oauth_token=None,
         password=None,
